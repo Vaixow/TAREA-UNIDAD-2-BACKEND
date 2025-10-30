@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'contactos', ##añadimos la app a settings
+    'contactos' ##añadimos la app a settings
 ]
 
 MIDDLEWARE = [
@@ -85,7 +85,7 @@ DATABASES = {
         "USER": os.getenv("user"),
         "PASSWORD": os.getenv("password"),
         "HOST": os.getenv("host"),
-        "PORT": os.getenv("port"),
+        "PORT": os.getenv("port")
     }
 }
 
