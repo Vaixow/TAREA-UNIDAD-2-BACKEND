@@ -1,6 +1,8 @@
-django
-python-dotenv
-gunicorn
+Django
+django-environ
 whitenoise
+gunicorn
 psycopg[binary,pool]
-psycopg2
+psycopg2-binary
+asgiref
+python-dotenv
